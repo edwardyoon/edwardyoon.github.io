@@ -4,8 +4,6 @@ title: "Generative Attention Cosmology (GAC): The Universe Is Inferring"
 author: "Edward J. Yoon"
 date: 2026-03-16 13:00:00 +0900
 categories: [Physics, AI, Philosophy]
-tags: [Cosmology, Transformer, Attention, RTX5090, Energy-Efficiency]
-description: "A formal proposal for a computational cosmology where physical laws are emergent properties of an autoregressive attention mechanism."
 ---
 
 # Generative Attention Cosmology (GAC)
