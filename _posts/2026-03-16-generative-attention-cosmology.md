@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Generative Attention Cosmology (GAC): The Universe Is Inferring"
-author: "Edward J. Yoon"
 date: 2026-03-16 13:00:00 +0900
 categories: [Physics, AI, Philosophy]
 ---
