@@ -1,10 +1,3 @@
----
-layout: post
-title: "GAC II: Gravity as Informational Alignment"
-date: 2026-03-22 13:00:00 +0900
-categories: [Physics, AI, Information-Theory]
----
-
 # GAC II: Gravity as Informational Alignment
 ### *Why Objects Fall: The Logic of Least Loss*
 
