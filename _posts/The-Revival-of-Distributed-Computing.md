@@ -1,6 +1,6 @@
 # The Revival of Distributed Computing
 ### From Pregel to the Modern DistBelief
-
+ 
 ---
 
 A decade ago, the battlefield of distributed computing split into two distinct camps.
