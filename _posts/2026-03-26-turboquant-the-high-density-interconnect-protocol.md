@@ -1,12 +1,3 @@
----
-layout: post
-title: "The Revival of Distributed Computing: Vol. 2 — TurboQuant"
-subtitle: "The High-Density Interconnect Protocol for Modern DistBelief"
-date: 2026-03-27 09:00:00 +0900
-categories: [Architecture, AI-Infrastructure]
-tags: [TurboQuant, NPU, Distributed-Computing, DistBelief, vLLM]
----
-
 # The Revival of Distributed Computing: Vol. 2
 ## TurboQuant: The High-Density Interconnect Protocol for Modern DistBelief
 
