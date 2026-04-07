@@ -1,3 +1,7 @@
+# On AI Funding and Open Source Sustainability
+
+---
+
 ## On AI Funding and Open Source Sustainability
 
 There’s a structural dynamic worth examining in recent AI–open source interactions.
