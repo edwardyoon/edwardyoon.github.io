@@ -1,5 +1,7 @@
-# On AI Funding and Open Source Sustainability
-
+---
+layout: post
+title: "On AI Funding and Open Source Sustainability"
+date: 2026-04-08
 ---
 
 ## On AI Funding and Open Source Sustainability
