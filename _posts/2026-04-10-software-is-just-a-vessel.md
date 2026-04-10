@@ -14,11 +14,11 @@ The idea of an AI agent reading source code, modifying it, and re-compiling it i
 * **Persona vs. Programming:** In an AI-native world, you don't rewrite a tool. You set a **Persona Prompt**. This high-level configuration shifts the model's internal state instantly. It’s immediate execution, not a development cycle.
 * **Example:** There is no need to have AI develop complex CRM software and then use an agent to operate it; you simply instruct the model to act as a professional marketer directly.
  
-### The Role of Micro Intelligence (Gemma 4)
+### The Role of Micro Intelligence
 
 The shift is being driven by the democratization of **Micro Intelligence**. 
 
-With models like **Gemma 4**, powerful "Local Edge Intelligence" is now ubiquitous. When this level of reasoning lives on your device, the need for a dedicated "SaaS app" for every small task disappears. 
+When powerful "Local Edge Intelligence" becomes ubiquitous and lives directly on your device, the need for a dedicated "SaaS app" for every small task disappears. 
 
 1.  **Direct Tensor Exchange:** Instead of calling legacy APIs, intelligence nodes can simply exchange embedding data or activation tensors. 
 2.  **Context over Code:** The intelligence is already there in the OS or the hardware. It just needs the right weights and context to act.
