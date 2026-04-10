@@ -13,43 +13,33 @@ Current AI Agent architectures exhibit a fundamental inefficiency: agents genera
 
 ```
 ====================================================================================================
-[TXP-FLOW-001] State Injection & Effector Reflex Loop
+[TXP-ARCH-001] Cross-Model Neural State Sync Scenario (Gemma-4 <> Qwen-3.6)
 ====================================================================================================
 
-      NODE A (Gemma-4)                                     NODE B (Qwen-3.6)
-      ----------------                                     ----------------
+      NODE A (Planner)                                NODE B (Executor)
+      Model: Gemma-4-9B                               Model: Qwen-3.6-7B
+      (Logic & Strategy)                              (Action & Effector Tool)
 
-   +-------------------------+                     +-------------------------+
-   |     Input (Intent)      |                     |     Input (Blocked)     |
-   |           v             |                     |           |             |
-   +-------------------------+                     +-------------------------+
-   |   Layer 1 (Embedding)   |                     |   Layer 1 (Embedding)   |
-   |           v             |                     |           |             |
-   +-------------------------+                     +-------------------------+
-               :                                               :
-               :                                               :
-   +-----------v-------------+                     +-----------v-------------+
-   | Layer 24 ( residual )   |====================>| Layer 18 (residual)     |
-   |           v             |   [Neural Sync]     |           v             |
-   +-------------------------+                     +-------------------------+
-               :                                               :
-   [Forward Pass Continued]                                    :
-               :                                   [Forward Pass Resumed]
-   +-----------v-------------+                     +-----------v-------------+
-   | Layer N (Output Head)   |                     | Layer N (Output Head)   |
-   +-------------------------+                     +-----------+-------------+
-               |                                               |
-               |                                               v [Attention Head Trigger]
-               v                                   +-------------------------+
-   +-------------------------+                     | Effector Policy Wrapper |
-   |     Blocked (Tokens)    |                     | (db.execute / api.call) |
-   +-------------------------+                     +-------------------------+
-                                                               |
-                                                               v [Reflex Call]
-                                                   +-------------------------+
-                                                   |      DB / API Call      |
-                                                   | (No Generated Code)     |
-                                                   +-------------------------+
+   +---------------------------------+                 +---------------------------------+
+   |  User Intent: "Execute batch    |                 |  Policy: [FinancialOps/Refund]  |
+   |  refund for overdue accounts"   |                 |                                 |
+   +---------------------------------+                 +---------------------------------+
+                  |                                                   ^
+   +--------------V------------------+                 +--------------+------------------+
+   |  Gemma-4 Inference (Strategy)   |                 |  Qwen-3.6 Injection & Run      |
+   |  (Mid-Layer Activation Capture) |                 |  (Direct Attn Head Trigger)     |
+   +--------------+------------------+                 +--------------+------------------+
+                  |                                                   ^
+                  | [ITQ3_S Compression]                               | [ITQ3_S Decompression]
+   +--------------V------------------+                 +--------------+------------------+
+   |  TXP Framer / Encoder           |                 |  TXP Deframer / Decoder         |
+   |  (State -> ITQ3_S -> Binary)    |                 |  (Binary -> ITQ3_S -> State)    |
+   +--------------+------------------+                 +--------------+------------------+
+                  |                                                   ^
+                  | [Neural Packet] (d x Q bits)                      | [Neural Packet] (d x Q bits)
+   +--------------V------------------+                 +--------------+------------------+
+   |  Network Stack (RDMA/TCP)       |---------------->|  Network Stack (RDMA/TCP)       |
+   +---------------------------------+                 +---------------------------------+
 ```
 ---
 
