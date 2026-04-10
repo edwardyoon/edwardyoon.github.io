@@ -103,9 +103,9 @@ analytics:
 author:
   name             : "Edward J. Yoon"
   avatar           : "https://avatars2.githubusercontent.com/u/189909?s=460&v=4"
-  bio              : "Father, Member of Apache Software Foundation."
+  bio              : "Father"
   location         : "Seoul"
-  email            : edwardyoon@apache.org
+  email            : edward@udanax.org
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
