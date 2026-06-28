@@ -1,7 +1,7 @@
 # The Democratization of Intelligence Will Not Be Led by Big Tech
 
 *Edward J. Yoon*
-*Apache contributor since 2007 · Apache Software Foundation Member*
+*Apache contributor since 2007 · Apache Software Foundation Emeritus Member*
 
 For a long time, I believed Dario Amodei represented the best version of the AI safety movement.
 
