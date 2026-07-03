@@ -17,25 +17,9 @@ I was wrong about that, too.
 
 This year, Anthropic presented *Mythos* as a frontier model whose deployment would remain tightly controlled because of concerns about its capabilities, rather than being broadly released.
 
-By now, the pattern is difficult to ignore. Anthropic has repeatedly argued that frontier AI carries severe—even existential—risks, and has consistently arrived at a similar conclusion: that only a relatively small number of carefully governed laboratories should be trusted to develop and deploy the most capable systems.
+By now, the pattern is difficult to ignore. Anthropic has repeatedly argued that frontier AI carries severe—even existential—risks, and has generally advocated keeping the most capable frontier systems under the control of a relatively small number of carefully governed laboratories.
 
 Whether intentional or not, the practical effect is the same. The circle of who gets to build grows smaller, while the organizations advocating that framework remain inside the circle. Whether that outcome is deliberate is almost beside the point. Incentive structures often produce the same result without anyone needing to conspire.
-
-Around the same period, the Apache Software Foundation received a substantial donation from Anthropic.
-
-I do not question the sincerity of the gift. Open-source foundations genuinely need financial support, and companies that contribute to shared infrastructure deserve recognition.
-
-What concerned me was something else.
-
-Alongside the public discussion surrounding the donation came increased attention to strengthening the security of open-source components used throughout modern AI infrastructure. From the perspective of volunteer maintainers, that work can begin to feel less like philanthropy and more like vendor-focused infrastructure maintenance supported under the banner of charitable giving.
-
-I raised that concern publicly on the Foundation's mailing list.
-
-I did not accuse anyone of corruption.
-
-I simply wrote something I still believe today.
-
-> **Money is never just money. It reshapes priorities long before it reshapes policy.**
 
 ---
 
